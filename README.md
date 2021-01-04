@@ -40,9 +40,7 @@ change light bulb
     1. format the letter x
     2. the original text
 
-    The date when the todo is marked as completed is recorded in the `yyyy-mm-dd` format (ISO 8601). For example, a date like `15th August, 2020` is represented as `2020-08-15`.
-
-
+    
 ## Usage
 
 ### 1. Help
