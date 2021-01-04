@@ -2,7 +2,8 @@
 
 #### It is a todo app in c language
 
-
+[![Todo-CLI](https://res.cloudinary.com/sv-co/image/upload/v1607935139/fullstack-CEF/Todo-CLI/play-video-demo_fp50wp.png)](https://vimeo.com/490621534)
+*Some functions are same as shown in video(written in javascript).
 ## Getting started
 
 1. You should have a C compiler available for building the code.
