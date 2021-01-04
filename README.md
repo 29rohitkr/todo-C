@@ -1,3 +1,7 @@
+## todo-c
+
+#### It is a todo app in c language
+
 
 ## Getting started
 
