@@ -23,7 +23,7 @@ Run the following command in your shell:
 ```
 $ ln -s todo.sh todo
 ```
-
+Manually create `todo.txt` and `done.txt`
 
 ## Specification
 
