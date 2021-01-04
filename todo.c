@@ -18,7 +18,6 @@ void report(FILE *fptodo, FILE *fpdone,char data[]);
 int main(int argc, char *argv[])
 {
     FILE *fptodo, *fpdone;
-    //char *args;
     int argi;
     char data[MAX];
     int i;
@@ -90,13 +89,11 @@ void ls(FILE *fptodo, char data[]){
 	/*list all of the remaining  taks*/
 	fptodo = fopen("todo.txt", "r+");
 	int i =0;
-	//int i;
-	//i = line(fptodo,data);
+
 	while(fgets(data,MAX,fptodo) != NULL ){
 		i++;
 		printf("[%d] %s",i,data);
 	}
-	//printf("\n");
 	fclose(fptodo);
 
 }
@@ -113,7 +110,6 @@ void add(FILE *fptodo, char data[]){
 
 void del(FILE *fptodo,int num,char data[]){
 	FILE *fpt;
-	//char *task;
 	fptodo = fopen("todo.txt", "r");
 	fpt = fopen("temp.txt", "w");
 	int i =0;
