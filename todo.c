@@ -3,7 +3,6 @@
 #include <string.h>
 #include <time.h>
 
-#define BUF_LEN 256
 #define MAX 256
 
 int line(FILE *fptodo,char data[]);
@@ -178,7 +177,7 @@ void report(FILE *fptodo, FILE *fpdone,char data[]){
 }
 
 void date(){
-	char buf[BUF_LEN] = {0};
+	char buf[MAX] = {0};
 
 	time_t rawtime = time(NULL);
 
@@ -190,6 +189,6 @@ void date(){
 	if(ptm == NULL)
 		puts("the localtime() function not working.");
 
-	strftime(buf, BUF_LEN, "%Y/%m/%d", ptm);
+	strftime(buf, MAX, "%Y/%m/%d", ptm);
 	fputs(buf, stdout);
 }
